@@ -1,0 +1,11 @@
+@import url(./assets/geist/indexes.css);
+@import "tailwindcss";
+
+@theme {
+    --font-body: Geist, sans-serif;
+}
+
+body.kcBodyClass {
+    @apply bg-[url(./assets/background.jpg)] bg-no-repeat bg-center bg-fixed;
+    @apply font-body
+}
